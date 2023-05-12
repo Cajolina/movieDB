@@ -3,10 +3,12 @@ import MyMovies from "./MyMovies";
 
 const Header = () => {
   return (
-    <div>
+    <div className="headerContent">
       <h1>Header</h1>
-      <NavLinks />
-      <MyMovies />
+      <div className="rightContent">
+        <NavLinks />
+        <MyMovies />
+      </div>
     </div>
   );
 };

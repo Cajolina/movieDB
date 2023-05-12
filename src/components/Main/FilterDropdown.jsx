@@ -1,7 +1,11 @@
 const FilterDropdown = () => {
   return (
     <div>
-      <h1>FilterDropdown</h1>
+      <select name="filterDropdown" id="filterDropdown">
+        <option value="popular">Popular</option>
+        <option value="topRated">Top Rated</option>
+        <option value="upcoming">Upcoming</option>
+      </select>
     </div>
   );
 };
