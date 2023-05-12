@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div>
-      <h1>Footer</h1>
+      <p>© Copyright MovieDB 2023</p>
     </div>
   );
 };

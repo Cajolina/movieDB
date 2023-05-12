@@ -1,7 +1,11 @@
 const NavLinks = () => {
   return (
     <div>
-      <h1>NavLinks</h1>
+      <ul>
+        <li>Movies</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
     </div>
   );
 };
