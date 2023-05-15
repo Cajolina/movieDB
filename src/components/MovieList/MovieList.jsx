@@ -1,10 +1,9 @@
-import FilterDropdown from "./FilterDropdown";
-import MovieCard from "./MovieCard";
+import FilterDropdown from "../FilterDropDown/FilterDropdown";
+import MovieCard from "../MovieCard/MovieCard";
 
 const MovieList = () => {
   return (
     <div>
-      <h1>MovieList</h1>
       <FilterDropdown />
       <MovieCard />
     </div>

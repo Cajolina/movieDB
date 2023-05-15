@@ -1,8 +1,7 @@
-import MarkAsSeenBtn from "./MarkAsSeenBtn";
+import MarkAsSeenBtn from "../MarkAsSeenBtn/MarkAsSeenBtn";
 const MovieCard = () => {
   return (
     <div>
-      <h1>MovieCard</h1>
       <MarkAsSeenBtn />
     </div>
   );
