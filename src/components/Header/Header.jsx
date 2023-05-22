@@ -2,7 +2,7 @@ import NavLinks from "../NavLinks/NavLinks";
 import MyMovies from "../MyMovies/MyMovies";
 import "./Header.css";
 
-const Header = () => {
+function Header() {
   return (
     <header>
       <h1>
@@ -14,6 +14,6 @@ const Header = () => {
       </div>
     </header>
   );
-};
+}
 
 export default Header;
